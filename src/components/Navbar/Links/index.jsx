@@ -45,8 +45,9 @@ const NavLinks = ({ onClose }) => (
       { name: 'About RSUBS', href: '/about' },
       { name: 'Contact Us', href: '/contact' },
       { name: 'Portal', href: '/portal' },
-      // { name: 'Privacy Policy', href: '/privacy-policy' },
-      { name: 'Alumni', href: '/alumni' }
+      { name: 'Alumni', href: '/alumni' },
+      { name: 'Journals', href: '/journals' },
+      { name: 'Programmes', href: '/programs' },
     ].map((link) => (
       <Link
         key={link.name}

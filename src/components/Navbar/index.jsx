@@ -9,7 +9,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <Box bg="white" px={{md:5, base: 3}} py={4} boxShadow="sm">
+    <Box bg="#F7F7F7" px={{md:5, base: 3}} py={4} boxShadow="sm">
       <Flex align="center">
         {/* Logo Section */}
        <Logo />

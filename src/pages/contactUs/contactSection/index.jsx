@@ -1,5 +1,6 @@
 import { Box, Text, VStack, HStack, Link, Image, Icon, Divider } from "@chakra-ui/react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import ContactUs from '../../../assets/images/ContactImage.jpg'
 
 const ContactSection = () => {
   return (
@@ -7,7 +8,7 @@ const ContactSection = () => {
       {/* Left Side - Image */}
       <Box flex="1" minW="300px">
         <Image
-          src="/path-to-image.jpg"
+          src={ContactUs}
           alt="Contact Support"
           objectFit="cover"
           w="100%"
@@ -37,8 +38,8 @@ const ContactSection = () => {
           {/* Get In Touch */}
           <VStack align="flex-start" spacing={2}>
             <Text fontWeight="bold" color="gray.800">GET IN TOUCH</Text>
-            <Link href="tel:+23470070527" color="blue.600">+234 700 70527</Link>
-            <Link href="mailto:mba@rsubs.edu.ng" color="blue.600">mba@rsubs.edu.ng</Link>
+            <Link href="tel:+2348033129995" color="blue.600">+234 803 312 9995</Link>
+            <Link href="mailto:info@bs.rsu.edu.ng" color="blue.600">info@bs.rsu.edu.ng</Link>
           </VStack>
         </HStack>
 

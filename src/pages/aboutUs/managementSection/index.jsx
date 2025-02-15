@@ -12,8 +12,9 @@ const ManagementBoard = () => {
       {/* Management Board */}
       <Grid templateColumns={{ base: "1fr", md: " 1fr" }} gap={6}>
 
-        {/* Member 2 */}
-        <Flex bg="blue.700" p={4} borderRadius="md" boxShadow="lg" align="center" flexDirection={{ base: "column", md: "row" }} gap={5}>
+        {/* Member 1 */}
+        <Box bg="blue.700" p={4} borderRadius="md" boxShadow="lg">
+        <Flex  align="center" flexDirection={{ base: "column", md: "row" }} gap={5}>
           <Image
             src={VC}
             alt="Professor Nlerum S. Okogbule"
@@ -32,6 +33,7 @@ const ManagementBoard = () => {
             <Text fontSize="sm" marginY={3}>It took the insistence and passionate plea of his father who had himself been denied the opportunity of going to school for the Headmaster to accept the young Okogbule as a pupil then</Text>
           </Box>         
         </Flex>
+
          {/* Profile of VC */}
          <Box>
           <VStack spacing={4} align="start" color="white" p={4} bg="blue.700" borderRadius="md" boxShadow="lg">
@@ -74,17 +76,15 @@ const ManagementBoard = () => {
             Students’ Disciplinary Advisory Committee,</Text>
             <Text>Ad-Hoc Committee on Category 7 Cases</Text>
             <Text>Chairman, Committee on Review of Conditions of Service and Promotion of Non-Academic Staff of the University.</Text>
-
             <Text>He has also served as a Member of several Committees in the University. These include:</Text>
             <Text>Senate Business Committee</Text>
             <Text>University Accommodation Allocation Committee</Text>
             <Text>Students Disturbances Panel</Text>
             <Text>Admissions Committee, etc.</Text>
-
             <Text>Prof Okogbule served as a Member of the 12th Governing Council of this University representing Senate.</Text>
-
             <Text>Government and Community positions held</Text>
-            <Text>Prof Okogbule has also served Rivers State and Nigeria in several capacities.</Text></Box>     
+            <Text>Prof Okogbule has also served Rivers State and Nigeria in several capacities.</Text>
+            </Box>     
           
             <UnorderedList fontSize="sm">
         <ListItem>Member, Council of Legal Education, 2001-2003, and 2014 – present</ListItem>
@@ -100,11 +100,32 @@ const ManagementBoard = () => {
         <ListItem>Member, Committee on Accreditation and Approval of Private Schools in Rivers State, May – September, 2019</ListItem>
         <ListItem>Inaugural Human Rights Advisor, Shell Petroleum Development Company Nigeria Ltd, during his Sabbatical period in the company. 2007 – Sept, 2008</ListItem>
       </UnorderedList>
+      <Box>
+        <Text fontSize="sm">Publications</Text>
+        <Text fontSize="sm">Prof Okogbule has published two books, one monograph, twelve book Chapters and over 50 articles in refereed national and international journals. Some of his articles have won Awards at International Conferences. His flagship article on ‘Globalization and African Development’, apart from being an Award Winner at the 25th Conference of the Association of Third World Scholars in Cape Coast, Ghana in November, 2009 is regularly cited by writers all over the world. His other Award-winning article ‘Combating the New Slavery in Nigeria: An appraisal of legal and policy responses to human trafficking’ is equally a global reference point on human trafficking.        
+        </Text>
+      </Box>
+      <Box fontSize="sm">
+        <Text>Religious Life</Text>
+        <Text>Prof Okogbule is a committed born-again Christian worshipping with the Church of God Mission Int Inc. at the Rumuepirikom Provincial Headquarters. For several years he served as Chairman of the Church Committee and Men’s Fellowship at the Mgbuosimini, Rumuolumeni Branch of the Church. In recognition of his service in God’s Vineyard, he was ordained a Deacon in November, 2012 and Elder of the Church in November, 2015.       
+        </Text>
+      </Box>
+      <Box fontSize="sm">
+        <Text>Marital Life</Text>
+        <Text>Prof Okogbule is happily married to Deaconess (Barr.) Mrs Uchenda Bibian Okogbule, a staff of the Rivers State Customary Court of Appeal and they are blessed with seven children and four grand-children.     
+        </Text>
+      </Box>
+
+      <Text marginBottom={10} fontSize="sm">
+      Professor Okogbule is an accomplished academic, a humane and unassuming administrator, a prolific writer, a consummate human rights activist, Legal Luminary of repute, and an Award-winning International Scholar.
+      </Text>
           </VStack>
          </Box>
+        </Box>
 
         {/* Member 2 */}
-        <Flex bg="blue.700" p={4} borderRadius="md" boxShadow="lg" align="center" flexDirection={{ base: "column", md: "row" }} gap={5}>
+        <Box bg="blue.700" p={4} borderRadius="md" boxShadow="lg" color={"white"}>       
+        <Flex  align="center" flexDirection={{ base: "column", md: "row" }} gap={5} marginY={5}>
           <Image
             src={DVC}
             alt="Professor Victor Abaecheta Akujuru"
@@ -112,17 +133,51 @@ const ManagementBoard = () => {
             boxSize="400px"
             objectFit="cover"
           />
-          <Box color={"white"} ml={4}>
+          <Box color={"white"} ml={4} display="grid" gap={5}>
             <Text fontSize="lg" fontWeight="bold">Professor Victor Abaecheta Akujuru</Text>
             <Text fontSize="sm">B.sc (Bristol), Msc (Reading), PhD (Salford), FNIVS, RSV, MRICS, RWA, KSC, PPAFRES</Text>
             <Text fontSize="sm">DVC ADMIN</Text>
-            <Text fontSize="sm" marginY={3}>Profrofessor Nlerum Sunday Okogbule was Born on 15th September, 1960, to the family of Late Elder Sunday and Mrs Azonwo Okogbule at Ovelle-Nvakohia, Rumuekpe in Emohua Local Government Area of Rivers State, Prof Nlerum Sunday Okogbule demonstrated his love for education at a very early stage in life.
-            </Text>
-            <Text fontSize="sm" marginY={3}>He started his primary education in 1965 when his hand could hardly cross the other side of his head which was the customary measurement index in those days.
-            .</Text>
-            <Text fontSize="sm" marginY={3}>It took the insistence and passionate plea of his father who had himself been denied the opportunity of going to school for the Headmaster to accept the young Okogbule as a pupil then</Text>
+            <Box fontSize="sm">
+      <Text>
+        Victor A. Akujuru was born on the 9th day of May 1955 into the family of late Catechist Alfred Ezekwesiri Akujuru and late Mrs. Salome Nwanda Akujuru of Ihuowo Community, in the Ahoada East Local Government Area of Rivers State. He had his primary education in several Primary Schools following his father’s frequent transfer from one Church to another. In 1960 he attended St. Michael’s Primary School, Omoku, in Ogba/Egbema/Ndoni Local Government Area, in 1961 he attended the Primary School at Banigo Isile-Ogono Village in Bonny Local Government Area. In 1963 he attended St. John’s Primary School at Ihuowo Village in Ahoada East Local Government Area and returned to Boyle Memorial School, Bonny in Bonny Local Government Area in 1966 and following the outbreak of Civil war, he returned to St. John’s Primary School, Ihuowo to obtain the Primary 6 Certificate in 1968.
+      </Text>
+    </Box>
           </Box>
         </Flex>
+        <VStack fontSize="sm">
+        <Text>
+        He enrolled into the Western Ahoada County High School, Ahoada in Ahoada East Local Government Area for his Secondary education in 1969 and finished in 1973, passing the West African School Certificate examinations with a Division One.
+      </Text>
+
+      <Text>
+        Between 1974 and 1975, he had a brief stint with Michelin Tyre Company as a Clerk Archivist and later as a Store Clerk, and finally as an Officer of Customs and Exercise in the Nigerian Customs Service where he left in 1975 to pursue post-secondary education in the United Kingdom with a Rivers State Government Scholarship secured while in the Customs Service. After obtaining the University of London Advanced Level Certificate at the Southampton Technical College in 1976, he enrolled in the then Bristol Polytechnic (now University of the West of England) to study Valuation and Estate Management between 1976 and 1979.
+      </Text>
+
+      <Text>
+        He returned to Nigeria and registered for the National Youth Service Corps in 1979 and served till 1980 at the Oyo State Housing Corporation as an Estate Officer. While on Youth Service, he was employed by the Rivers State Government as a Lands Officer.
+      </Text>
+
+      <Text>
+        He is a Professor of Environmental Valuation and Land Management in the Faculty of Environmental Sciences with specialization in Valuation of Land and the Environment, and a Consultant Estate Surveyor and Valuer with vast professional experiences covering both the public and private sectors of the economy. He has worked as a Land Officer and Deeds Registrar with the Rivers State Ministry of Lands and Survey in Port Harcourt, Nigeria. He has also worked as a Project Manager in the defunct All States Bank Group, where he was attached to the CT&P Construction Company in Lagos and Port Harcourt and consulted for International Oil and Gas Companies operating in Nigeria, and many private individuals and firms all over Nigeria.
+      </Text>
+
+      <Text>
+        Prof Victor A. Akujuru is a Fellow of the Nigerian Institution of Estate Surveyors and Valuers, a Member of the Royal Institution of Chartered Surveyors, and a Right of Way Agent and a Certified Instructor of the International Right of Way Association. He is a Past President of the African Real Estate Society, a past Chairman of the Rivers/Bayelsa branch of the Nigerian Institution of Estate Surveyors and Valuers, and a past Chairman of the Education Committee and Board of Examiners of the Nigerian Institution of Estate Surveyors and Valuers of Nigeria. He holds a Bachelor of Science degree from Bristol Polytechnic, Bristol, England, in Valuation and Estate Management, a Master’s degree from the University of Reading, Reading, England in Urban Land Appraisal which he passed with Distinction, and a Doctorate Degree in the Built Environment, from the University of Salford, Salford in England. He has supervised several students at the undergraduate, master’s, and doctorate degree levels. He is widely published and an adept researcher.
+      </Text>
+
+      <Text>
+        He is the Diocesan Estate Manager of the Diocese of Ahoada, Anglican Communion, an Emeritus Chorister of the Diocese of Ahoada, and a Knight of St. Christopher in the Anglican Communion. He has taught Estate Management and Valuation and published widely and had previously served as Acting Head of Department, Department of Estate Management for 13 years, Sub-Dean for 4 years, and Acting Dean for 2 years, in the Faculty of Environmental Sciences of the Rivers State University of Science and Technology (now Rivers State University). He was formerly the Director of Research and Development in this University. He is widely traveled and enjoys reading, writing, and traveling.
+      </Text>
+
+      <Text>
+        <strong>Office Address:</strong> Office of the Deputy Vice-Chancellor (Administrative), 1st Floor, Senator Francis Ellah Administrative Building, Rivers State University
+      </Text>
+
+      <Text>
+        <strong>Phone:</strong> +2348033236858
+      </Text>
+        </VStack>
+      </Box>
 
         {/* Member 3 */}
         <Flex bg="blue.700" p={4} borderRadius="md" boxShadow="lg" align="center" flexDirection={{ base: "column", md: "row" }} gap={5}>

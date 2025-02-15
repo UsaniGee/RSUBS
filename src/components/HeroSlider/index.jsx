@@ -6,19 +6,20 @@ import "swiper/css";
 import "swiper/css/navigation";
 import HeroOne from "../../assets/images/HeroOne.jpeg"; 
 import HeroTwo from "../../assets/images/HeroTwo.jpeg"; 
+import { Link } from "react-router-dom";
 
 const slides = [
   {
     image: HeroOne, 
     title: "Welcome to RSUBS",
-    subtitle: "Africa’s Leading Business School",
-    buttonText: "Learn More About Us",
+    subtitle: "Leading Business School",
+    buttonText: "Learn More",
   },
   {
     image: HeroTwo, 
     title: "Welcome to RSUBS",
-    subtitle: "Africa’s Leading Business School",
-    buttonText: "Learn More About Us",
+    subtitle: "Leading Business School",
+    buttonText: "Learn More",
   },
 
 ];
@@ -59,6 +60,7 @@ const HeroSlider = () => {
                 <Text fontSize={{ base: "16px", md: "4xl" }} mt={2} color="gray.700">
                   {slide.subtitle}
                 </Text>
+                <Link to="/about">
                 <Button
                   mt={4}
                   colorScheme="blue"
@@ -66,7 +68,7 @@ const HeroSlider = () => {
                   _hover={{ bg: "blue.700" }}
                 >
                   {slide.buttonText}
-                </Button>
+                </Button></Link>
               </Flex>
             </Box>
           </SwiperSlide>
